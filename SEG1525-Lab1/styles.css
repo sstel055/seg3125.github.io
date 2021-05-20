@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+  background-color: #1b6ef2;
+}
+
+img {
+  border-radius: 12px;
+}
+
+h1{
+  color: darkgreen;
+}
+
+.question label{
+  margin-bottom: 20px;
+}
+input {
+  margin-top: 10px;
+}
+#content {
+  text-align: left;
+  display: inline-block;
+  align-items: center;
+  background-color: #478eff;
+  border-radius: 12px;
+}
+
+#link {
+  align-items: center;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.question {
+  background-color: #72a5f7;
+  padding: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 12px;
+}
+
+#submit {
+  margin-left: 10px;
+}
