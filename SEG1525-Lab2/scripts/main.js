@@ -80,7 +80,7 @@ function myCart(){
       }
     }
   }
-  bill += "</p><br><p>Your total is: " + Math.round(total * 100) / 100 + "</p>";
+  bill += "</p><br><p>Your total is: $" + Math.round(total * 100) / 100 + "</p>";
 
   document.getElementById("displayCart").innerHTML = bill;
 
