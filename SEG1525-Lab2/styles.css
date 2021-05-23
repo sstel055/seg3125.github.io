@@ -1,44 +1,75 @@
 body {
   text-align: center;
-  background-color: #1b6ef2;
 }
 
-img {
-  border-radius: 12px;
+p {
+  font-size: 20px;
+  font-family: Calibri Light;
 }
 
-h1{
-  color: darkgreen;
+label {
+  font-size: 20px;
+  font-family: Calibri Light;
 }
 
-.question label{
-  margin-bottom: 20px;
-}
-input {
-  margin-top: 10px;
-}
-#content {
-  text-align: left;
-  display: inline-block;
-  align-items: center;
-  background-color: #478eff;
-  border-radius: 12px;
-}
-
-#link {
-  align-items: center;
-  text-align: center;
-  margin-top: 15px;
-}
-
-.question {
-  background-color: #72a5f7;
+.bar {
+  background-color: green;
+  border-radius: 12px 12px 0px 0px;
   padding: 10px;
-  margin-left: 15px;
-  margin-right: 15px;
-  border-radius: 12px;
+  text-align: left;
 }
 
-#submit {
-  margin-left: 10px;
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin-left: 5px;
+  font-family: Calibri Light;
+  background-color: green;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+a:hover {
+  background-color: #349eeb;
+  transition-duration: 1s;
+}
+
+.content {
+  border-radius: 0px 0px 12px 12px;
+  border-color: black;
+  border-left: solid black;
+  border-right: solid black;
+  border-bottom: solid black;
+  padding: 10px;
+}
+
+#welcome {
+  font-size: 30px;
+  font-family: Calibri Light;
+}
+
+#main div {
+  border-radius: 12px;
+  border-color: black;
+  padding: 10px;
+}
+
+#main {
+  text-align: left;
+}
+
+button {
+  color: white;
+  font-size: 20px;
+  margin-left: 5px;
+  font-family: Calibri Light;
+  background-color: green;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+button:hover {
+  background-color: #349eeb;
+  transition-duration: 1s;
 }
