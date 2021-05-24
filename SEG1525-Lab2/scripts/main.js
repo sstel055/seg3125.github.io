@@ -122,9 +122,9 @@ function myProducts(){
     for(var x = 0; x < selected.length; x++){
       if(inventory[i].name === selected[x]){
         if(selected2.includes(selected[x])){
-          available += "<input type='checkbox' id='" + inventory[i].name + "' name='" + inventory[i].name + "' value='"+ inventory[i].name + "' checked><label for='" + inventory[i].name + "'>"  + inventory[i].name + " - " + inventory[i].price + "</label><br></input>";
+          available += "<input type='checkbox' id='" + inventory[i].name + "' name='" + inventory[i].name + "' value='"+ inventory[i].name + "' checked><label for='" + inventory[i].name + "'>"  + inventory[i].name + " - $" + inventory[i].price + "</label><br></input>";
         } else {
-          available += "<input type='checkbox' id='" + inventory[i].name + "' name='" + inventory[i].name + "' value='"+ inventory[i].name + "'><label for='" + inventory[i].name + "'>"  + inventory[i].name + " - " + inventory[i].price + "</label><br></input>";
+          available += "<input type='checkbox' id='" + inventory[i].name + "' name='" + inventory[i].name + "' value='"+ inventory[i].name + "'><label for='" + inventory[i].name + "'>"  + inventory[i].name + " - $" + inventory[i].price + "</label><br></input>";
         }
       }
     }
