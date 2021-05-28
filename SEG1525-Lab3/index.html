@@ -1,0 +1,70 @@
+<html>
+  <head>
+    <title>Stella Foods</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/shopping-cart.png">
+  </head>
+  <body>
+    <div class="bar">
+    <br>
+    </div>
+    <div class="content" id="home">
+
+      <p id="welcome">Welcome to</p>
+      <img src="images/logo.jpg" alt="#">
+      <br><br>
+      <a href="#main">Let's get started</a>
+      <br><br>
+    </div>
+    <br><br>
+
+    <div class="bar">
+      <a type="submit" onclick="clientInfo()">Profile</a>
+      <a type="submit" onclick="myProducts()">Products</a>
+      <a type="submit" onclick="myCart()">Cart</a>
+    </div>
+    <div class="content" id="main">
+
+      <div id="profile">
+        <p>Tell us a bit about yourself</p>
+          <label for="name">First name: </label>
+          <input type="text" id="name" name="name"><br><br>
+
+          <label>Select all the categories that concerns you so that we can filter the results based on your needs</label><br>
+          <input type="checkbox" id="lactose" name="lactose" value="lactose"><label for="lactose">Lactose-intolerant</label><br>
+          <input type="checkbox" id="nut" name="nut" value="nut"><label for="nut">Nut allergies</label><br>
+          <input type="checkbox" id="vegetarian" name="vegetarian" value="vegetarian"><label for="vegetarian">Vegetarian</label><br>
+          <input type="checkbox" id="gluten" name="gluten" value="gluten"><label for="gluten">GlutenFree</label><br>
+          <input type="checkbox" id="organic" name="organic" value="organic"><label for="organic">Organic</label><br><br>
+
+          <button id="submit" type="submit" onclick="myProducts()">Next</button>
+      </div>
+      <div id="products">
+        <p id="welcomeMessage"></p>
+        <p>Here are the products that we recommend for you:</p>
+        <div id="displayProduct"></div>
+
+        <button id="backProfile" type="button" class="block" onclick="clientInfo()">
+		        Back
+	      </button>
+        <button id="addCart" type="button" class="block" onclick="myCart()">
+		        Go to cart
+	      </button>
+      </div>
+      <div id="cart">
+        <p>Here is your cart:</p>
+        <div id="displayCart"></div>
+        <button id="backCart" type="button" class="block" onclick="myProducts()">
+		        Back
+	      </button>
+        <button id="confirm" type="button" class="block" onclick="confirm()">
+		        Confirm
+	      </button>
+      </div>
+    </div>
+    <script src="scripts/main.js"></script>
+  </body>
+  <footer>
+    <p>Website designed by S.Stella</p>
+  </footer>
+</html>

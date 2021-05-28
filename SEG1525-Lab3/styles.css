@@ -1,0 +1,79 @@
+body {
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  font-family: Calibri Light;
+}
+
+label {
+  font-size: 20px;
+  font-family: Calibri Light;
+}
+
+.bar {
+  background-color: green;
+  border-radius: 12px 12px 0px 0px;
+  padding: 10px;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin-left: 5px;
+  font-family: Calibri Light;
+  background-color: green;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+a:hover {
+  background-color: #349eeb;
+  transition-duration: 1s;
+}
+
+.content {
+  border-radius: 0px 0px 12px 12px;
+  border-color: black;
+  border-left: solid black;
+  border-right: solid black;
+  border-bottom: solid black;
+  padding: 10px;
+}
+
+#welcome {
+  font-size: 30px;
+  font-family: Calibri Light;
+}
+
+#main div {
+  border-radius: 12px;
+  border-color: black;
+  padding: 10px;
+}
+
+#main {
+  text-align: left;
+}
+
+button {
+  color: white;
+  font-size: 20px;
+  margin-left: 5px;
+  font-family: Calibri Light;
+  background-color: green;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+button:hover {
+  background-color: #349eeb;
+  transition-duration: 1s;
+}
+
+.items {
+  height: 50px;
+}
