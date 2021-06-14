@@ -1,0 +1,24 @@
+td{
+    font-size: 25px;
+}
+p{
+    font-size: 20px;
+}
+.btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card img {
+  height : 200px;
+  width: 200px;
+  align-content: center;
+}
+
+.card .row {
+  justify-content: center;
+}
+
+.modal-content form {
+  margin: 5px;
+}

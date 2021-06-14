@@ -1,0 +1,200 @@
+<!doctype html>
+<!-- Here is a link to the code the documents this code is based on
+https://getbootstrap.com/docs/5.0/getting-started/introduction/
+This will help you get started with your code!
+-->
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="styles/styles.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="images/physiotherapy.png">
+    <title>Wellness Physiotherapy Clinic</title>
+</head>
+<body>
+<!--
+I store all of the page information in a container,
+Many websites will use what is called CSS grid layouts, where you will have a header, body, footer and both sides used for ads or other information
+-->
+
+<div class = "container-lg">
+  <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <strong>Warning!</strong> Hours may vary due to the pandemic.
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+
+    <!--
+    Most websites now feature what is called a NavBar.
+    The example I give is quite simple with a logo and some text, but you can use it for many navigational patterns
+    https://getbootstrap.com/docs/5.0/components/navbar/
+    -->
+
+    <nav class="navbar bg-dark text-white p-3 my-3 ">
+        <h1><img src="images/physiotherapy.png" width="130" height="130">Welcome to Wellness Physiotherapy Clinic</h1>
+    </nav>
+
+    <div class=" p-3 my-3 border bg-light">
+        <h1 class=""> About us</h1>
+        <p class="p-4 my-3" style="font-size: 25px">At Wellness Physiotherapy, we aim to provide effective physiotherapy services. Our physiotherapists are passionate about helping our clients acheive their ideal fitness and pain-free mobility goals.</p>
+        <p style="font-size: 25px; padding-left: 1.5rem">Located in the heart of downtown Ottawa.</p>
+
+        <a href="https://www.google.com/maps/place/235+Bank+St,+Ottawa,+ON+K2P+1X2/@45.4166583,-75.7017117,16z/data=!4m5!3m4!1s0x4cce05acbfc834ef:0xa63f177ac902bdf3!8m2!3d45.4166583!4d-75.6973343"><img src="images/location.png"></a>
+    </div>
+    <!--
+    Tables are one of many ways to organize information easily.
+    It is a good way to list of prices, or services in a business website
+    https://getbootstrap.com/docs/5.0/content/tables/
+    -->
+    <table class="table table-info table-hover">
+        <thead>
+            <tr>
+                <th scope="col"><h2>Service</h2></th>
+                <th scope="col"><h2>Description</h2></th>
+                <th scope="col"><h2>Price</h2></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Custom Knee Brace</td>
+                <td>Our knee braces are made from combinations of high quality materials such as metal, foam, plastic, elastic material and straps. Our knee braces are designed to prevent injuries and to help our patients recover from an existing injury</td>
+                <td>$50</td>
+            </tr>
+            <tr>
+                <td>Custom Orthotics</td>
+                <td>Our custom orthotics can help correct foot deformities, allow the foot or ankle function better, provide support to the ankle and reduce the risks for further injuries</td>
+                <td>$60</td>
+            </tr>
+            <tr>
+                <td>TMJ Pain</td>
+                <td>Exercises to stretch and strengthen jaw muscles, treatments might include ultrasound, moist heat and ice.</td>
+                <td>$50/hour</td>
+            </tr>
+            <tr>
+                <td>Post Surgery Rehab</td>
+                <td>Exercises to help re-establish joint motion, muscle strength around the joint and finally joint function</td>
+                <td>60$/hour</td>
+            </tr>
+            <tr>
+                <td>Sports Injury Rehab</td>
+                <td>Exercises to help regain mobility, muscle strength and flexibility </td>
+                <td>60$/hour</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class=" p-3 my-3 border bg-light">
+        <h1 class="">Our Team</h1>
+        <div class="row justify-content-around">
+            <div class="card" style="width: 18rem;">
+                <div class="row">
+                  <img src="images/stella.png" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                  <h4>Dr. Stella</h4>
+                  <p class="card-text">Dr. Stella is founder and owner of Wellness Physiotherapy Clinic. He started the clinic when he graduated from the Queen's School of Medicine at the age of 28 years old.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="row">
+                  <img src="images/caruso.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                  <h4>Dr. Caruso</h4>
+                  <p class="card-text">Dr. Caruso is one of our more experienced doctors with over 40 years of experience.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="row">
+                  <img src="images/doctor.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                  <h4>Dr. Chen</h4>
+                  <p class="card-text">Dr. Chen graduated from the Queen's School of Medicine in December 2010 and has been a physiotherapist Wellness Physiotherapy Clinic ever since.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class=" p-3 my-3 border bg-light">
+        <h1 class="">Contact Us</h1>
+        <div class="row">
+        <div class="col">
+          <p class="h4">Hours of operation</p>
+          <table>
+            <tr><th>Monday</th><td>9am - 5pm</td></tr>
+            <tr><th>Tuesday</th><td>9am - 5pm</td></tr>
+            <tr><th>Wednesday</th><td>9am - 5pm</td></tr>
+            <tr><th>Thursday</th><td>9am - 5pm</td></tr>
+            <tr><th>Friday</th><td>9am - 5pm</td></tr>
+            <tr><th>Saturday</th><td>Closed</td></tr>
+            <tr><th>Sunday</th><td>Closed</td></tr>
+          </table>
+        </div>
+        <div class="col">
+          <div class="row">
+            <p class="h4">Address</p>
+            <address>
+              235 Bank Street<br>
+              Ottawa,<br>
+              ON K2P 1X2<br>
+              CA
+            </address>
+          </div>
+          <div class="row">
+            <p class="h4">Email</p>
+            <address>
+              help@welness.com
+            </address>
+          </div>
+          <div class="row">
+            <p class="h4">Telephone</p>
+            <address>
+              (613)-123-4567
+            </address>
+          </div>
+          <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Book an appointment now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Book an appointment</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form action="/action_page.php">
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname"><br><br>
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname"><br><br>
+                  <label for="lname">Email</label>
+                  <input type="text" id="email" name="email"><br><br>
+                  <label for="phone">Enter your phone number:</label>
+                  <input type="tel" id="phone" name="phone"><br><br>
+                  <label for="start">Date</label>
+                  <input type="date" id="start" name="trip-start" value="2021-06-14" min="2021-06-14" max="2022-12-31"><br><br>
+                  <label for="appt">Time</label>
+                  <input type="time" id="appt" name="appt" min="09:00" max="17:00" required><br><br>
+                  <label for="service">Service</label>
+                  <select id="service" name="service">
+                    <option value="knee">Custom Knee Brace</option>
+                    <option value="orthotics">Custom Orthotics</option>
+                    <option value="tmj">TMJ Pain</option>
+                    <option value="surgery">Post Surgery Rehab</option>
+                    <option value="sport">Sports Injury Rehab</option>
+                  </select>
+                </form>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
