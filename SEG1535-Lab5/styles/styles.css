@@ -1,0 +1,55 @@
+td{
+    font-size: 20px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card img {
+  height : 200px;
+  width: 200px;
+  align-content: center;
+}
+
+.card .row {
+  justify-content: center;
+}
+
+.modal-content form {
+  margin: 5px;
+  width: 5000px;
+}
+
+address {
+  font-size: 20px;
+}
+
+div{
+  margin: 10px;
+}
+
+#book {
+  border-radius: 5px;
+  background-color: #0066ff;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.icon {
+  height: 20px;
+}
+
+.nav-link {
+  color: white;
+}
+
+#appt {
+  width: 50px;
+}
