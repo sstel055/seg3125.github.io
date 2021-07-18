@@ -1,0 +1,94 @@
+td{
+    font-size: 20px;
+}
+
+#priceList {
+  border: 5px solid;
+}
+
+#priceList .leader:after {
+    margin-left: 5px;
+    width: 0;
+    white-space: nowrap;
+    content: ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ." ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ." ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ." ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ." ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .";
+}
+
+
+#pageName {
+  font-family: Brush Script MT;
+  font-size: 100px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card img {
+  height : 200px;
+  width: 200px;
+  align-content: center;
+}
+
+.card .row {
+  justify-content: center;
+}
+
+.modal-content form {
+  margin: 5px;
+  width: 5000px;
+}
+
+address {
+  font-size: 20px;
+}
+
+div{
+  margin: 10px;
+}
+
+#send {
+  border-radius: 5px;
+  background-color: #0066ff;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
+
+#book {
+  border-radius: 5px;
+  background-color: #0066ff;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
+
+#close {
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+#open {
+  border-radius: 5px;
+  background-color: #0066ff;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.icon {
+  height: 20px;
+}
+
+.nav-link {
+  color: white;
+}
+
+#appt {
+  width: 80px;
+}
